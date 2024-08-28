@@ -6,7 +6,7 @@ This project involves the creation and deployment of an **AWS CloudFront distrib
 
 ### Architecture Diagram
 
-![Architecture Diagram](link-to-image-on-github)
+![Architecture Diagram](architecture-diagram.jpg)
 
 This diagram illustrates the architecture of the project:
 
