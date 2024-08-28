@@ -56,9 +56,6 @@ This diagram illustrates the architecture of the project:
    - Launch EC2 instances.
    - Deploy the application code on EC2 instances.
 
-## How to Deploy
+## Conclusion
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
-
+This project demonstrates the use of AWS services to create a scalable, highly available, and low-latency application delivery infrastructure. CloudFront’s caching and Route 53’s global DNS services work together to deliver content quickly to users, while the **Application Load Balancer** ensures the backend application servers are utilized efficiently.
