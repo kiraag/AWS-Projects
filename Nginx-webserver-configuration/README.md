@@ -30,17 +30,23 @@ sudo systemctl enable nginx
 
 # Create a basic HTML page
 echo "<h1>Hello from Nginx!</h1>" | sudo tee /usr/share/nginx/html/index.html
+```
+## 3. Launch and Access
 
-3. Launch and Access
-Complete the EC2 launch process.
-Once the instance is running, obtain the Public IP from the EC2 dashboard.
-Open a browser and visit http://<EC2_Public_IP> to view the Nginx welcome page.
-Key Points
-Automated Setup: The user data script ensures Nginx is installed and configured automatically during instance launch.
-Web Access: The server is accessible via the EC2 public IP immediately after the instance is running.
-Usage
+1. **Complete the EC2 launch process.**
+2. Once the instance is running, obtain the **Public IP** from the EC2 dashboard.
+3. Open a browser and visit `http://<EC2_Public_IP>` to view the Nginx welcome page.
+
+### Key Points
+
+- **Automated Setup**: The user data script ensures Nginx is installed and configured automatically during instance launch.
+- **Web Access**: The server is accessible via the EC2 public IP immediately after the instance is running.
+
+### Usage
+
 This setup is suitable for hosting static web content or simple web applications on an EC2 instance, eliminating the need for manual configuration after launch.
 
-References
-AWS EC2 Documentation
-Nginx Documentation
+### References
+
+- [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)
+- [Nginx Documentation](https://nginx.org/en/docs/)
