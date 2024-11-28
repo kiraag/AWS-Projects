@@ -15,7 +15,8 @@
 
 8. Verify that a log entry has been created in the DynamoDB table containing the file copy details.
 
-```
+--- 
+
 * Note: Attach the following managed policies to the role:
 
 - AmazonS3FullAccess: To access S3 buckets.
