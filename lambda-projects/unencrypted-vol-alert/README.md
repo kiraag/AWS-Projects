@@ -12,12 +12,6 @@ This project automates the process of checking Amazon EC2 volumes for encryption
 
 ---
 
-## Architecture
-
-![Architecture](images/ec2-encryption-alert-architecture.png)
-
----
-
 ## Prerequisites
 
 1. An AWS account.
